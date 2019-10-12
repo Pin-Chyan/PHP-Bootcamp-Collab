@@ -1,4 +1,35 @@
-.background {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* code underneath */
+
+body {
     /* background-image: url(https://images.drawinghub.com/31396_501/how-to-draw-skyrim-skyrim-logo_5b5bd63f21f441.58247952_94762_1_4.jpg); */
     background-repeat: no-repeat;
     background-position: center;
@@ -51,7 +82,7 @@
     background-color: rgb(131, 36, 245);
 } 
 
-/* rest */
+/* the header of the logo */
 
 .main_wrap {
     width:1000px;
@@ -67,25 +98,109 @@
 
 }
 
-.menu {
-
+#logo {
+    float: left;
+    height: 120px;
 }
 
-.contentarea {
+#cart {
+    position: absolute;
+    height: 30px;
+    margin-left: 85%;
+    margin-top: 1.5%;
+}
 
+#signin {
+    position: absolute;
+    height: 28px;
+    margin-left: 85%;
+    margin-top: 7.5%;
+}
+
+.menubar {
+    width: 1000px;
+    height: 50px;
+    background: rgb(58, 4, 124);
+    color: white;
+}
+
+#menu {
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    /* float: left; */
+}
+
+#menu li {
+    list-style: none;
+    display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+    font-family: apple chancery;
+}
+
+#menu a:hover {
+    color: rgb(154, 189, 250);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#form {
+    position: absolute;
+    margin-top: -4.2%;
+    margin-left: 62%;
+    padding-left: 8px;
+    line-height: 50px;
+}
+
+/* wrap under head */
+
+.content_warp {
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    background-color: rgb(58, 76, 200);
+}
+
+#content_area {
+    width: 800px;
+    height: 800px;
+    float: right;
+    background: rgb(58, 76, 200);
+}
+
+#sidebar {
+    width:200px;
+    height: 800px;
+    background: rgb(172, 69, 237);
+    float: left;
+}
+
+#footer {
+    width: 1000px;
+    height: 100px;
+    background: rgb(65, 0, 0);
+    clear: both;
+}
+
+
+
+
+
+/* 
+.contentarea {
+    width: 1000px;
+    height: 800px;
+    float: right;
+    background-color:rgb(red, green, rgb(78, 0, 0));
 }
 
 .footer {
 
-}
-
-.h_image {
-    height: 120px;
-}
-
-.cart {
-    position: absolute;
-    height: 30px;
-    margin-left: 80%;
-    margin-top: 1.5%;
-}
+}  */

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <link rel="stylesheet" href="edit.css">
 <html>
     <head>
@@ -5,40 +6,78 @@
             WeThinkClothes
         </title>
     </head>
-    <body class="background">
+    <body>
+        <!-- Main container starts -->
         <div class="main_wrap">
+            <!-- Header starts -->
             <div class="header">
-                <img class="h_image" src="../images/logo.png" alt="logo">
-                <img class="cart" src="../images/cart.png" alt="cart">
+                <img id="logo" src="../images/logo.png" alt="logo">
+                <img id="cart" src="../images/cart.png" alt="cart">
+                <img id="signin" src="../images/signin.png" alt="sign-in">
             </div>
-            <div class="main_wrap">
+            <!-- Header ends -->
+
+            <!-- navigation bar starts -->
+            <div class="menubar">
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Console</a></li>
+                    <li><a href="#">Genre</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+                <div id="form">
+                    <form method="get" action="results.php" enctype="multipart/form-data">
+                        <input type="text" name="user_query" placeholder="Search a Product"/>
+                        <input type="submit" name="search" value="Search" />
+                    </form>
+                </div>
+            </div>
+            <!-- navigation bar ends -->
+            
+            <!-- Content wrapper starts -->
+            <div class="content_warp">
+                <div id="sidebar"></div>
+                <div id="content_area"></div>
+            </div>
+            <!-- Content wrapper ends -->
+            
+            <!-- footer starts -->
+            <div id="footer">
+
+
+            </div>
+            <!-- footer ends -->
+            
+            
+            
+            <!-- <div class="main_wrap">
                 <div class="dropdown">
                     <button class="dropbtn">Console</button>
                     <div class="dropdown-content">
-                        <a href="https://www.youtube.com/results?search_query=anime+music&page=&utm_source=opensearch">PC</a>
-                        <a href="https://www.youtube.com/results?search_query=ncs+music">PS4</a>
-                        <a href="https://www.youtube.com/results?search_query=jazz+music">XBOX</a>
+                        <a href="file:///homes/pitsai/Desktop/MAMP/apache2/htdocs/PHP-Bootcamp-Collab/front_end/pc.html">PC</a>
+                        <a href="/front_end/ps4.html">PS4</a>
+                        <a href="/front_end/xbox.html">XBOX</a>
                     </div>
                 </div>
                 <div class="dropdown">
                     <button class="dropbtn">Genre</button>
                     <div class="dropdown-content">
-                        <a href="https://www.youtube.com/results?search_query=anime+music&page=&utm_source=opensearch">FPS</a>
-                        <a href="https://www.youtube.com/results?search_query=ncs+music">RPG</a>
-                        <a href="https://www.youtube.com/results?search_query=jazz+music">Action</a>
+                        <a href="/front_end/fps.html">FPS</a>
+                        <a href="/front_end/rpg.html">RPG</a>
+                        <a href="/front_end/action.html">Action</a>
                     </div>
                 </div>
                 <div class="dropdown">
                     <button class="dropbtn">Accessories</button>
                     <div class="dropdown-content">
-                        <a href="https://www.youtube.com/results?search_query=anime+music&page=&utm_source=opensearch">Headphones</a>
-                        <a href="https://www.youtube.com/results?search_query=jazz+music">Keyboards</a>
-                        <a href="https://www.youtube.com/results?search_query=rock+music">Monitors</a>
-                        <a href="https://www.youtube.com/results?search_query=ncs+music">Mouses</a>
+                        <a href="/front_end/Headphones.html">Headphones</a>
+                        <a href="/front_end/keyboards.html">Keyboards</a>
+                        <a href="/front_end/monitors.html">Monitors</a>
+                        <a href="/front_end/mouses.html">Mouses</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
-
+        <!-- Main container ends -->
     </body>
 </html>
