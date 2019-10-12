@@ -6,6 +6,53 @@
     /* background-size: %; */
 }
 
+/* nav-bar */
+
+.dropbtn {
+    background-color: lightskyblue;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    background-color: lightslategray;
+    color: black;
+    padding: 6px 6px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: aquamarine;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-hover .dropbtn {
+    background-color: lightseagreen;
+} 
+
+/* rest */
+
 .main_wrap {
     width:1000px;
     height:auto;
@@ -15,7 +62,7 @@
 .header {
     position: relative;
     width: 1000px;
-    height:150px;
+    height:120px;
     margin: auto;
 
 }
