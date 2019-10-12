@@ -124,37 +124,10 @@ body {
     color: white;
 }
 
-#menu {
-    padding: 0;
-    margin: 0;
-    line-height: 50px;
-    /* float: left; */
-}
-
-#menu li {
-    list-style: none;
-    display: inline;
-}
-
-#menu a {
-    text-decoration: none;
-    color: white;
-    padding: 8px;
-    margin: 5px;
-    font-size: 18px;
-    font-family: apple chancery;
-}
-
-#menu a:hover {
-    color: rgb(154, 189, 250);
-    font-weight: bolder;
-    text-decoration: underline;
-}
-
 #form {
-    position: absolute;
-    margin-top: -4.2%;
-    margin-left: 62%;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 750px;
     padding-left: 8px;
     line-height: 50px;
 }
@@ -163,29 +136,24 @@ body {
 
 .content_warp {
     width: 1000px;
-    height: 800px;
+    height: 1000px;
     margin: auto;
-    background-color: rgb(58, 76, 200);
+    background-color: black);
 }
 
 #content_area {
-    width: 800px;
-    height: 800px;
+    width: 1000px;
+    height: 1000px;
     float: right;
     background: rgb(58, 76, 200);
-}
-
-#sidebar {
-    width:200px;
-    height: 800px;
-    background: rgb(172, 69, 237);
-    float: left;
+    opacity: 0.2;
 }
 
 #footer {
     width: 1000px;
     height: 100px;
     background: rgb(65, 0, 0);
+    opacity: 0.2;
     clear: both;
 }
 
