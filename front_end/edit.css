@@ -1,0 +1,44 @@
+.background {
+    /* background-image: url(https://images.drawinghub.com/31396_501/how-to-draw-skyrim-skyrim-logo_5b5bd63f21f441.58247952_94762_1_4.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    /* background-size: %; */
+}
+
+.main_wrap {
+    width:1000px;
+    height:auto;
+    margin:auto;
+}
+
+.header {
+    position: relative;
+    width: 1000px;
+    height:150px;
+    margin: auto;
+
+}
+
+.menu {
+
+}
+
+.contentarea {
+
+}
+
+.footer {
+
+}
+
+.h_image {
+    height: 120px;
+}
+
+.cart {
+    position: absolute;
+    height: 30px;
+    margin-left: 80%;
+    margin-top: 1.5%;
+}
