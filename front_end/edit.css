@@ -9,8 +9,8 @@
 /* nav-bar */
 
 .dropbtn {
-    background-color: lightskyblue;
-    color: black;
+    background-color: rgb(131, 36, 245);
+    color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -32,15 +32,15 @@
 }
 
 .dropdown-content a {
-    background-color: lightslategray;
-    color: black;
+    background-color: rgb(171, 122, 231);
+    color: white;
     padding: 6px 6px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: aquamarine;
+    background-color: rgb(58, 4, 124);
 }
 
 .dropdown:hover .dropdown-content{
@@ -48,7 +48,7 @@
 }
 
 .dropdown-hover .dropbtn {
-    background-color: lightseagreen;
+    background-color: rgb(131, 36, 245);
 } 
 
 /* rest */
